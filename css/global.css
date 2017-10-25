@@ -1,0 +1,385 @@
+@media screen and (min-width:1024px){.weui_dialog{width:85%;left: 7.5%;}}
+.wp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: linear-gradient(127deg, #31b13b, #087138);
+    /* 标准的语法 */
+}
+
+.page {
+    font-size: 72px;
+    line-height: 320px;
+    text-align: center;
+}
+
+
+/* 箭头 */
+
+@-webkit-keyframes start {
+    0%,
+    30% {
+        opacity: 0.2;
+        -webkit-transform: translate(0, 10px);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+    }
+    100% {
+        opacity: 0.2;
+        -webkit-transform: translate(0, -5px);
+    }
+}
+
+@keyframes start {
+    0%,
+    30% {
+        opacity: 0.2;
+        transform: translate(0, 10px);
+    }
+    60% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    100% {
+        opacity: 0.2;
+        transform: translate(0, -5px);
+    }
+}
+
+.start {
+    position: fixed;
+    left: 50%;
+    margin-left: -17px;
+    top: 95%;
+    margin-top: -34px;
+    width: 34px;
+    height: 34px;
+}
+
+.start b {
+    position: absolute;
+    left: 13%;
+    top: 10px;
+    margin-left: -9px;
+    width: .5rem;
+    height: .3rem;
+    background: url(img/arrow.png);
+    background-size: 100% 100%;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+    animation: start 1.5s infinite ease-in-out;
+}
+
+
+/*the forth page -----start-----*/
+.banner {
+    margin: 2rem auto 0 auto;
+    width: 10rem;
+    height: 9.6rem;
+    background: url(img/page_forth_sprite.png) no-repeat left top;
+    background-size: 107%;
+}
+.first-title {
+    margin: 1.5rem auto 0 auto;
+    width: 8.5rem;
+    height: 1.5rem;
+    background: url(img/page_forth_sprite.png) no-repeat 0 102%;
+    background-size: 100%;
+}
+
+.second-title {
+    margin-top: .8rem;
+}
+
+.second-title div {
+    font-size: .4rem;
+    color: #fff;
+    line-height: .5rem;
+    margin-top: .2rem;
+}
+
+.bottom-banner .first {
+    margin: 0 auto;
+    margin-top: 1rem;
+    height: 1.2rem;
+    width: 7.2rem;
+    background: url(img/page_forth_sprite.png) no-repeat 102% 79%;
+    background-size: 122%;
+}
+
+.bottom-banner .second {
+    margin: 0 auto;
+    margin-top: -.24rem;
+    height: 1rem;
+    width: 4rem;
+    background: url(img/page_forth_sprite.png) no-repeat  100% 67%;
+    background-size: 222%;
+}
+
+.bottom-banner .third {
+    margin: 0 auto;
+    margin-top: -.08rem;
+    height: .8rem;
+    width: 8.5rem;
+    background: url(img/page_forth_sprite.png) no-repeat  0 89%;
+    background-size: 100%;
+}
+
+/*the forth page -----end-----*/
+
+/*the forth page -----start-----*/
+.page5 .banner {
+   background: url(img/page_fifth_sprite.png) no-repeat left top;
+   background-size: 108%;
+} 
+.page5 .first-title {
+    width: 6.5rem;
+    background: url(img/page_fifth_sprite.png) no-repeat 102% 102%;
+    background-size: 160%;
+}
+.page5 .bottom-banner .first {
+    width: 7.2rem;
+    background: url(img/page_fifth_sprite.png) no-repeat 102% 79%;
+    background-size: 126%;
+}
+
+.page5 .bottom-banner .second {
+    width: 8.2rem;
+    height: 1.4rem;
+    background: url(img/page_fifth_sprite.png) no-repeat 100% 68%;
+    background-size: 125%;
+}
+
+.page5 .bottom-banner .third {
+    width: 8.5rem;
+    height: 1.2rem;
+    background: url(img/page_fifth_sprite.png) no-repeat 114% 90%;
+    background-size: 116%;
+    margin-top: -.5rem;
+}
+/*the fifth page -----end-----*/
+/*the sixth page -----start-----*/
+.page6 {
+    padding: 0 1.4rem;
+}
+.page6 .title {
+    overflow: hidden;
+}
+.page6 .title-logo {
+    width: 6rem;
+    height: 1.8rem;
+    background: url(img/page_sixth_sprite.png) no-repeat -18% 75%;
+    margin-top: 2.4rem;
+    background-size: 128%;
+}
+.page6 .title-info {
+    width: 6.4rem;
+    height: 1.4rem;
+    background: url(img/page_sixth_sprite.png) no-repeat 0 104%;
+    float: right;
+    background-size: 100%;
+    margin-top: 1rem;
+}
+.page6 .form-list {
+    height: 10.5rem;
+    margin-top: .8rem;
+    color: #fff;
+    /*background: black;*/
+    text-align: -webkit-center;
+    position: relative;
+}
+.page6 .form-list>* {
+    -webkit-appearance: none;
+    -moz-appearance:none ;
+    appearance: none;
+    display: block;
+    font-size: .6rem;
+    /*line-height: 1rem;*/
+    width: 100%;
+    margin: .6rem 0;
+    height: 1.4rem;
+    border-radius: .2rem;
+    background: none;
+    border: 1px solid #fff;
+    padding-left: .5rem;
+    color: #fff;
+}
+.page6 .form-list:after {
+    content: " ";
+    display: inline-block;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(135deg);
+    height: .4rem;
+    width: .4rem;
+    border-width: 2px 2px 0 0;
+    border-color: #ffffff;
+    border-style: solid;
+    /* position: relative; */
+    top: -2px;
+    position: absolute;
+    top: .4rem;
+    right: 0.6rem;
+}
+::-webkit-input-placeholder {
+color: #c7c8c7; 
+} 
+.page6 .form-list input {
+    /*padding-left: 18px;*/
+     -webkit-appearance: none ;
+    -moz-appearance: none;
+    appearance:none ;
+    width: 94%;
+}
+.page6 .form-list input[type="button"] {
+    -webkit-appearance: none ;
+    -moz-appearance: none;
+    appearance:none ;
+    /*padding-left: 18px;*/
+    width: 100%;
+    background: #00a0e9;
+    border: none;
+    font-size: .6rem;
+}
+.form-list input[type=button][disabled]{
+    background-color: #0e86bd;
+}
+.page6 .form-list>select {
+    /*height: 1.4rem;*/
+    /* background: none;
+    border: 1px solid #fff;
+    border-radius: 8px; */
+    /*font-size: 20px;*/
+    padding-left: .4rem;
+    -webkit-appearance:none;
+    padding-right: .5rem;
+}
+.page6 select>option {
+    /*-webkit-appearance:none;*/
+    color: #0f6f28;
+    font-size: 14px;
+    background: #f9f9f9;
+}
+.page6 .footer {
+    height: 4rem;
+    text-align: left;
+    font-size: 0;
+    margin-top: 3rem;
+}
+.page6 .footer>div {
+    /*display: inline-block;*/
+    float: left;
+}
+.footer-img {
+    width: 38%;
+    height: 100%;
+    background: url(img/page_sixth_sprite.png) no-repeat 26% -5%;
+    background-size: 134%;
+    margin-left: .8rem;
+}
+.footer-info {
+    width: 36%;
+    /* height: 100%; */
+    margin-left: 18%;
+    /* vertical-align: text-bottom; */
+    margin-top: 1.4rem;
+}
+.footer .footer-info {
+    font-size: .4rem;
+    line-height: .4rem;
+}
+.footer .footer-info>p {
+    margin: 10px 0;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.warn-mask {
+    background: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+/*提示弹层样式*/
+.weui_dialog .weui_dialog_ft {
+    position: relative;
+    line-height: 2rem;
+    margin-top: 1rem;
+    font-size: .8rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+.weui_dialog .weui_dialog_title {
+    font-weight: 400;
+    font-size: .6rem;
+}
+/*the sixth page -----end-----*/
+
+
+.page3 .jobList {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    /*border: 1px solid #ccc;*/
+}
+
+.page3 .jobList1 {
+    margin-top: 20%;
+    background: url(img/pageThree_sprite.png) no-repeat 0% 0%;
+    /*background-color: pink;*/
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    height: 1.5rem;
+    margin-bottom: 5%;
+}
+
+.page3 .jobList2 {
+    background: url(img/pageThree_sprite.png) no-repeat 0% 12%;
+    /* background-color: pink;*/
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    height: 1.5rem;
+    margin-bottom: 5%;
+}
+
+.page3 .jobList3 {
+    background: url(img/pageThree_sprite.png) no-repeat 0% 26%;
+    /* background-color: pink;*/
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    height: 1.5rem;
+    margin-bottom: 5%;
+}
+
+.page3 .jobList4 {
+    background: url(img/pageThree_sprite.png) no-repeat 0% 39%;
+    /* background-color: pink;*/
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    height: 1.5rem;
+    margin-bottom: 5%;
+}
+
+.page3 .jobList5 {
+    background: url(img/pageThree_sprite.png) no-repeat 0% 100%;
+    /* background-color: pink;*/
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    height: 10rem;
+}
+
+.page3 .jobList6 {
+    position: relative;
+    top: -12rem;
+    background: url(img/pageThree_chilun.png) no-repeat 0% 39%;
+    /* background-color: pink;*/
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    height: 10rem;
+    z-index: -1;
+}
+

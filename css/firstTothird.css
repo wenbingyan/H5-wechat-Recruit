@@ -1,0 +1,112 @@
+
+.page1,.page2{
+    position:relative
+}
+.page1 div{
+    background-image: url(img/pageOne_sprite.png);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.first_recruitLogo{
+    height: 5.2rem;
+    background-size: 100%;
+    width: 79%;
+    top: 2rem;
+    left: 11%;
+}
+.first_logo{
+    height: 1.7rem;
+    width: 32%;
+    background-position: 0 29%;
+    background-size: 254%;
+    top: 6.2rem;
+    left: 18%;
+}
+.first_arrow{
+    height: 2.4rem;
+    width: 54%;
+    background-size: 155%;
+    background-position: 108% 30.5%;
+    top: 7.1rem;
+    left: 18%;
+}
+.first_earth{
+    height: 9rem;
+    width: 80%;
+    background-size: 100%;
+    background-position: 0 76%;
+    top: 10rem;
+    left: 10%;
+}
+.first_slogan{
+    height: 2.5rem;
+    width: 80%;
+    background-size: 124%;
+    background-position: 0 100%;
+    top: 19.5rem;
+    left: 10%;
+}
+
+.page2 div{
+    background-image: url(img/pageTwo_sprite.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second_pic1{
+    height: 7rem;
+    width: 58%;
+    background-size: 148%;
+    top: 5rem;
+    position: absolute;
+    left: 15%;
+}
+.second_pic2{
+    position: absolute;
+    height: 6rem;
+    width: 33%;
+    background-size: 260%;
+    background-position: 0 68%;
+    top: 2rem;
+    right: 2.3rem;
+}
+.second_title{
+    height: 2rem;
+    width: 50%;
+    background-position: 98% 53%;
+    margin-top: 11.5rem;
+    background-size: 179%;
+}
+.page .second_info{
+    background-image: none;
+    margin-top:.5rem;
+}
+.second_info span{
+    color: #ede7e7;
+    font-size: .4rem;
+    display: block;
+    line-height: .9rem;
+}
+.second_slogen1{
+    width: 88%;
+    height: 1.5rem;
+    background-position: 1% 100%;
+    margin-top: 1rem;
+    background-size: 101%;
+}
+.second_slogen2{
+    height: 1.5rem;
+    width: 50%;
+    background-position: 101% 72%;
+    margin-top: -.3rem;
+    background-size: 178%;
+}
+.second_slogen3{
+    height: 1.2rem;
+    width: 60%;
+    background-position: 103% 89%;
+    margin-top: -0.45rem;
+    background-size: 147%;
+
+}
