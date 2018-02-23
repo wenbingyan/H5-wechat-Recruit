@@ -1,40 +1,132 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-   	 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/zepto.fullpage.css"/>
-	</head>
-	<style type="text/css">
-		.wp {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: red;
-    overflow: hidden;
-    /* 标准的语法 */
-}
-
-
-
-	</style>
-	<body>
-		<div class="wp">
-		    <div class="wp-inner">
-		        <div class="page page1" >1</div>
-		        <div class="page page2" >2</div>
-		        <div class="page page3" >3</div>
-		        <div class="page page4" >4</div>
-		    </div>
-		</div>
-	</body>
-	<script type="text/javascript">
-	
-		$('.wp-inner').fullpage({});
-		
-	</script>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Ross</title>
+    <link rel="stylesheet" href="css/weuix.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/zepto.fullpage.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <!--<link rel="stylesheet" href="css/animate.css">-->
+    <script src="./js/recruitH5-vendor-0.1.0.js"></script>
+    <link rel="stylesheet" href="css/firstTothird.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="wp">
+        <div class="wp-inner">
+            <div class="page page1">
+                <div class="js-animate first_recruitLogo" data-animate="enterFromRight" data-delay=".1s" ></div>
+                <div class="js-animate first_logo" data-animate="fadeIn" data-delay="1.1s"></div>
+                <div class="js-animate first_arrow" data-animate="enterFromLeft" data-delay=".6s"></div>
+                <div class="js-animate first_name" data-animate="rubberBand" data-delay="2s"></div>
+                <div class="js-animate first_slogan" data-animate="slideUp" data-delay="2.6s"></div>
+            </div>
+           <div class="page page2">
+                <div class="js-animate second_pic1"  data-animate="fadeIn" data-delay=".1s"></div>
+                <div class="js-animate second_pic2"  data-animate="fadeInDelay" data-delay=".9s"></div>
+                <div class="js-animate second_title"  data-animate="enterFromLeft" data-delay="1.7s"></div>
+                <div class="js-animate second_info"  data-animate="fadeIn" data-delay="2.3s">
+                    <span>首期开放30余个职位</span>
+                    <span>欢迎举荐！与人玫瑰，手有余香！</span>
+                </div>
+                <div class="js-animate second_slogen1"  data-animate="enterFromLeft" data-delay="3s"></div>
+                <div class="js-animate second_slogen2"  data-animate="enterFromRight" data-delay="3.4s"></div>
+                <div class="js-animate second_slogen3"  data-animate="enterFromLeft"data-delay="3.8s"></div>
+            </div>
+            <div class="page page3">
+                <div class="js-animate jobList1 jobList animated" data-animate="fadeInRight" data-delay=".1s"></div>
+                <div class="js-animate jobList2 jobList animated" data-animate="bounceInUp" data-delay=".8s"></div>
+                <div class="js-animate jobList3 jobList animated" data-animate="fadeInRight" data-delay="1.5s"></div>
+                <div class="js-animate jobList4 jobList animated" data-animate="bounceInUp" data-delay="2.2s"></div>
+                <div class="js-animate jobList5 jobList animated" data-animate="slideUp" data-delay="2.9s"></div>
+                <div class="js-animate jobList6 jobList animated" data-animate="fadeIn" data-delay="3s"></div>
+            </div>
+            <div class="page page4">
+                <div class="js-animate" data-animate="fadeIn" data-delay=".1s">
+                    <div class="banner"></div>
+                </div>
+                <div class="js-animate"  data-animate="enterFromLeft" data-delay=".7s">
+                    <div class="first-title"></div>
+                </div>
+                <div class="js-animate"  data-animate="fadeIn" data-delay="1.4s">
+                    <div class="second-title">
+                        <div>选对行业嫁对郎 ,</div>
+                        <div>开开心心过生活 !</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="bottom-banner">
+                        <div class="first js-animate" data-animate="enterFromLeft" data-delay="2.2s"></div>
+                        <div class="second js-animate" data-animate="enterFromRight" data-delay="2.6s"></div>
+                        <div class="third js-animate" data-animate="enterFromLeft" data-delay="3s"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="page page5">
+                <div class="js-animate" data-animate="fadeIn" data-delay=".1s">
+                    <div class="banner"></div>
+                </div>
+                <div class="js-animate" data-animate="enterFromLeft" data-delay=".7s">
+                    <div class="first-title">
+                    </div>
+                </div>
+                <div class="js-animate"  data-animate="fadeIn" data-delay="1.4s">
+                    <div class="second-title" >
+                        <div>法定该有的都有！我们还有</div>
+                        <div>薪酬极具竞争力</div>
+                        <div>利人、达己、宽容、快乐的企业文化！</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="bottom-banner">
+                        <div class="first js-animate" data-animate="enterFromLeft" data-delay="2.2s"></div>
+                        <div class="second js-animate" data-animate="enterFromRight" data-delay="2.6s"></div>
+                        <div class="third js-animate" data-animate="enterFromLeft" data-delay="3s"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <span class="start"><b></b></span>
+    <!-- <script src="js/zepto.js"></script> -->
+    <!-- <script src="../src/zepto.fullpage.js"></script> -->
+    
+    <script>
+        (function(win,doc){
+            win.addEventListener('resize',change,false);
+            function change(){
+                doc.documentElement.style.fontSize = doc.documentElement.clientWidth*20/320+'px';
+            }
+            change();
+        })(window,document);
+        //加载下拉列表
+        $('.wp-inner').fullpage({
+            change: function (e) {
+                // 移除动画属性
+                // console.log(e.cur)
+                $('.page').eq(e.cur).find('.js-animate').each(function() {
+                    $(this).hide().removeClass($(this).data('animate')).hide();
+                });
+            },
+            afterChange: function (e) {
+                // 添加动画属性
+                // console.log(e)
+                if(e.cur=="4"){
+                    $(".start").hide();
+                }else{
+                    $(".start").show()
+                }
+                $('.page').eq(e.cur).find('.js-animate')
+                    .each(function () {
+                        $(this).show().css("animation-delay",$(this).data('delay')).addClass($(this).data('animate'));
+                        // $(".form-list:after").show();
+                    });
+            }
+        });
+        
+    </script>
+</body>
 </html>

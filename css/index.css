@@ -1,0 +1,18 @@
+.first_name{
+    height: 9rem;
+    width: 80%;
+    background-size: 100%;
+    background-position: 0 76%;
+    top: 10rem;
+    left: 10%;
+    font-size: 2rem;
+    line-height: 9rem;
+    text-align: center;
+}
+.first_title{
+    height: 2rem;
+    width: 80%;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
